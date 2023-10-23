@@ -21,9 +21,9 @@ spec:
     spec:
       containers:
         - name : cia-web
-          image: tomcat
+          image: thread83/ip-show:v01
           ports:
-            - containerPort: 8080
+            - containerPort: 80
 
 ---
 apiVersion: v1
